@@ -6,7 +6,7 @@ SITENAME = 'JohnClarkeTrio'
 SITEURL = ''
 
 PATH = 'content'
-
+OUTPUT_PATH = 'docs/'
 TIMEZONE = 'America/Los_Angeles'
 
 DEFAULT_LANG = 'en'
@@ -19,10 +19,10 @@ AUTHOR_FEED_ATOM = None
 AUTHOR_FEED_RSS = None
 
 # Blogroll
-LINKS = (('Pelican', 'https://getpelican.com/'),
-         ('Python.org', 'https://www.python.org/'),
-         ('Jinja2', 'https://palletsprojects.com/p/jinja/'),
-         ('You can modify those links in your config file', '#'),)
+LINKS = (('Josh Mellinger', 'https://www.jmpercussion.com/'),
+            ('Our Album on Bandcamp', 'https://johnhclarke.bandcamp.com/album/the-john-h-clarke-trio-full-album/'),
+            ('Our Album on Amazon', 'https://www.amazon.com/gp/product/B07PKBH9GK/ref=as_li_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B07PKBH9GK&linkCode=as2&tag=johnclcom-20&linkId=00e87542c1f306061fe33af3ad62925c'),)
+
 
 # Social widget
 SOCIAL = (('You can add links in your config file', '#'),
